@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <h1>Perfil de Usuario</h1>
+    </header>
+
+    <main>
+        <p><h2>Binevenido</h2></p>
+        <form action="registro.html" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" value="Juan Perez" readonly>
+            <br>
+            <br>
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" value="Juan@Perez.com" readonly>
+            <br>
+            <br>
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion" name="direccion" readonly>Zona 1</textarea>
+            <br>
+            <br>
+            <label for="genero">Genero:</label>
+            <select id="genero" name="genero">
+                <option value="male">Masculino</option>
+                <option value="female">Femenino</option>
+            </select>
+            <br>
+            <br>
+            <button type="submit">Salir</button>
+        </form>
+
+
+    </main>
+
+    <footer>
+        <p>Derechos reservados@ 2025</p>
+    </footer>
+</body>
+</html>
